@@ -1,0 +1,22 @@
+{
+  "name": "@animoca/blockchain-inventory_metadata",
+  "version": "0.0.1",
+  "description": "Base metadata manipulation for Assets Inventory. Dependency for Contracts, Backends and Frontends projects.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000 --full-trace --exit --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.outblaze.net:blockchain/blockchain-inventory_metadata.git"
+  },
+  "author": "Animoca Brands",
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.48"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
