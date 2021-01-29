@@ -22,6 +22,11 @@ const isFungible = function (id) {
         .equals('0');
 }
 
+const isNonFungibleToken = function (id, nfMaskLength) {
+    assertId(id);
+    return !isFungible(id) && !BigInteger(id).and(makeMask(256 - nfMaskLength)).equals('0');
+}
+
 const makeMask = function (nbBits) {
     return BigInteger('1')
         .shiftLeft(nbBits)
@@ -34,5 +39,6 @@ module.exports = {
     assertId,
     assertNfMaskLength,
     isFungible,
+    isNonFungibleToken,
     makeMask,
 }

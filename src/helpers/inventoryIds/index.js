@@ -41,6 +41,7 @@ module.exports = {
     MaxNonFungibleMaskLength: Common.MaxNonFungibleMaskLength,
     NonFungibleFlag: Common.NonFungibleFlag,
     isFungible: Common.isFungible,
+    isNonFungibleToken: Common.isNonFungibleToken,
 
     Fungible,
     maxFungibleBaseCollectionId: Fungible.maxBaseCollectionId,
