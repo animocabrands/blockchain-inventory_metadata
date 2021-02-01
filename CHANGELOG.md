@@ -1,4 +1,9 @@
 # Changelog
 
-## 0.0.1 (15/04/2020)
+## 0.1.0
+
+### New Features
+* Added `isNonFungibleToken` function.
+
+## 0.0.1
 * Initial commit.
